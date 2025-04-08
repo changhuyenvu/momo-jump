@@ -5,10 +5,10 @@
 ---
 
 <h2>🎮 Menu chính</h2>
-<img src="assets/menu.png" alt="Menu chính" width="440" height="660"/>
+<img src="asset/menu.png" alt="Menu chính" width="440" height="660"/>
 
 <h2>🕹️ Giao diện chơi game</h2>
-<img src="assets/gameplay.png" alt="Giao diện chơi game" width="440" height="660"/>
+<img src="asset/gameplay.png" alt="Giao diện chơi game" width="440" height="660"/>
 
 ---
 
