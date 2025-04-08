@@ -126,7 +126,7 @@ void Challenge::loadArrowSpriteSheet() {
     arrowFrames[1] = {ARROW_WIDTH, 0, ARROW_WIDTH, ARROW_HEIGHT};
 }
 
-// Hàm spwan sông
+// Hàm spawn sông
 void Challenge::spawnRiver(int frameCount) {
     if (frameCount % RIVER_SPAWN_RATE != 0 || !canSpawnChallenge()) return;
 
@@ -161,7 +161,7 @@ void Challenge::spawnRiver(int frameCount) {
     riverRafts.push_back(rafts);
 }
 
-// hàm spwan đường để chứa mũi teen
+// hàm spawn đường để chứa mũi teen
 void Challenge::spawnArrowRoad(int frameCount) {
     if (frameCount % ARROW_ROAD_SPAWN_RATE != 0 || !canSpawnChallenge()) return;
 
